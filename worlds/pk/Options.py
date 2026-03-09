@@ -36,7 +36,6 @@ class NumberWhiskyBottles(Range):
     range_start = 1
     range_end = 13
     default = 7
-
 class NumberRelationships(Range):
     """
     Only applicable if your goal is set to 'Lady Love Dies'.

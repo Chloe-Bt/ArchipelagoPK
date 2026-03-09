@@ -5,6 +5,7 @@ from .ItemLists.Keys import *
 from .ItemLists.NebulaSodas import *
 from .ItemLists.Upgrades import *
 from .ItemLists.Whiskys import *
+from .ItemLists.Relics import *
 from .ItemLists.BloodCrystals import *
 
 from ..AutoWorld import World

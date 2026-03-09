@@ -33,7 +33,7 @@ from .LocationLists.SyndicateHQ import *
 from .LocationLists.Tunnel import *
 
 item_name_groups = {
-    "Nebula Soda Cans":         list(SODA_ID_TO_NAME.values()),
+    "Nebula Soda Drinks":       list(SODA_ID_TO_NAME.values()),
     "Whisky Bottles":           list(WHISKY_ID_TO_NAME.values()),
     "Upgrades":                 list(WHISKY_ID_TO_NAME.values()),
     "Sphere Keys":              list(WHISKY_ID_TO_NAME.values())
