@@ -33,14 +33,18 @@ from .LocationLists.SyndicateHQ import *
 from .LocationLists.Tunnel import *
 
 item_name_groups = {
+    "Upgrades":                 list(WHISKY_ID_TO_NAME.values()),
+}
+'''
     "Nebula Soda Drinks":       list(SODA_ID_TO_NAME.values()),
     "Whisky Bottles":           list(WHISKY_ID_TO_NAME.values()),
-    "Upgrades":                 list(WHISKY_ID_TO_NAME.values()),
     "Sphere Keys":              list(WHISKY_ID_TO_NAME.values())
-}
+}'''
 
 location_name_groups = {
     "Idle Lands":               [name for name in IL_ID_TO_NAME.values()],
+}
+'''
     "Agri Fields":              [name for name in AF_ID_TO_NAME.values()],
     "Beach":                    [name for name in B_ID_TO_NAME.values()],
     "Citizen Apartments":       [name for name in CA_ID_TO_NAME.values()],
@@ -68,3 +72,4 @@ location_name_groups = {
     "Syndicate HQ":             [name for name in SHQ_ID_TO_NAME.values()],
     "Tunnel":                   [name for name in T_ID_TO_NAME.values()],
 }
+'''

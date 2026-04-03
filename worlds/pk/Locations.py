@@ -51,7 +51,7 @@ def get_location_dict():
     # Idle Lands
     for IL_ID in ALL_IL:
         result[IL_ID_TO_NAME[IL_ID]] = IL_ID
-    
+    '''
     # Agri Fields
     for AF_ID in ALL_AF:
         result[AF_ID_TO_NAME[AF_ID]] = AF_ID
@@ -155,7 +155,7 @@ def get_location_dict():
     # Tunnel
     for T_ID in ALL_T:
         result[T_ID_TO_NAME[T_ID]] = T_ID
-    
+    '''
     return result
 
 def create_locations(world: World, regions: Dict[str, Region], options: ParadiseKillerOptions):
@@ -164,7 +164,7 @@ def create_locations(world: World, regions: Dict[str, Region], options: Paradise
     for IL_ID in ALL_IL:
         loc = ParadiseKillerLocation(world.player, IL_ID_TO_NAME[IL_ID], IL_ID, IL_region)
         IL_region.locations.append(loc)
-    
+    '''
     # Agri Fields
     AF_region = regions["Agri Fields"]
     for AF_ID in ALL_AF:
@@ -320,3 +320,4 @@ def create_locations(world: World, regions: Dict[str, Region], options: Paradise
     for T_ID in ALL_T:
         loc = ParadiseKillerLocation(world.player, T_ID_TO_NAME[T_ID], T_ID, T_region)
         T_region.locations.append(loc)
+    '''
